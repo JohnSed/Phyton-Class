@@ -45,4 +45,18 @@ print (resulta)
 #Mayor o Igual que 
 resultad = a >= b
 print(resultad)
+#Estrutctura If simpre separe con coma los datos que desea mostrar
+Numero = 2
+Numero2 = 2
 
+if Numero > Numero2:
+    print("El Numero",Numero, "Es Mayor Que" ,Numero2 )
+elif Numero<Numero2:
+    print("El Numero",Numero, "Es Menor Que" , Numero2)
+else:
+    print("El Numero",Numero, "Y el" , Numero2, "Son Iguales")
+#While Repite la funcion dada hasta que se cumpla la misma
+contador = 1
+while contador <= 10:
+    print(contador)
+    contador += 1
