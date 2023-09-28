@@ -7,10 +7,10 @@ print(Sma)
 # Resta
 rest = a-b
 print(rest)
-# multipli}
+# multipli
 multi = a*b
 print(multi)
-# factorizacion
+# factorizacion elevado
 facto = a**b
 print(facto)
 # division
@@ -19,8 +19,8 @@ print(div)
 # division Entera Olvida los decimales
 div2 = a//b
 print(div2)
-# modulo aproximacion de acuerdo a los decimales que se tienen
-mod = a % b
+# modulo aproximacion de acuerdo a los decimales que se tienen numero entero
+mod = a % b# devuelve el valor o el resto
 print(mod)
 # Operador De Asignacion
 #Explicacion Dependiendo el tipo de operador este tomara el valor iniciaal actuara el operador y regreseara el resultado
