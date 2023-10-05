@@ -1,6 +1,6 @@
 while True: # bucle while es una estructura de control en programación que permite ejecutar un bloque de código repetidamente mientras una condición dada sea verdadera
-        peso = float(input("Introducir su peso en kg: "))
-        altura = float(input("Introducir su altura en metros: "))
+        peso = float (input("Introducir su peso en kg: "))
+        altura = float (input("Introducir su altura en metros: "))
         #Calcular el IMC
         imc = peso / (altura ** 2)
         # Determinar la categoría según el IMC   
