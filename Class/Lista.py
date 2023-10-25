@@ -8,8 +8,9 @@ def main():
              
         print("1. Agregar Articulo")
         print("2. Eliminar Articulo")
-        print("3. Ver Lista")
-        print("4. Salir")
+        print("3. Ingrese Valor")
+        print("4. Ver Lista")
+        print("5. Salir")
 
         option=input("Por favor Introdusca Una Opcion: ")
 
@@ -23,13 +24,17 @@ def main():
             else:
                 print("El Articulo No Existe En La Lista") #Da un mensaje de que el articulo no esta dentro de la lista
         elif option == "3":
+            valor= int(input("Ingrese El Valor Del Producto: "))
+        elif option == "4":
             print ("\n Tu Lista De Compras Es: ")
             for item in shopping_lista:
                 print(" - " + item) #Imprime Loque trae mi lista
-        elif option == "4":
+            if valor in locals():
+                print("- Valor : " + str(valor))
+        elif option == "5":
             break
         else:
             print ("Opcion Invalida, Verifica La Opcion: ")
 if __name__== "__main__":
-   main()
+    main()
 
