@@ -18,3 +18,9 @@ print(mi_saludo)
 def imprimirdespedida(Apellido, Nombre="Luis") :
     print(f"Hasta Luego {Nombre} {Apellido}")
 imprimirdespedida("Diaz")
+#Argumentos Arbitrarios (Se vuelven tuplas)
+def saludar_personas(*names):
+    for name in names:
+        print(f"Buenos Días, {name}")
+
+saludar_personas("Hugo", "Paco", "Luis","Chupela")
