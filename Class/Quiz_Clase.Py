@@ -45,9 +45,9 @@ elif nota >= 3 and nota < 4.5:
 elif nota >= 4.5 and nota < 5:
     print("Nota Sobresaliente")
 #__________________________________________
-angulo_1=0
-angulo_2=180
-angulo_3=0
+angulo_1=30
+angulo_2=60
+angulo_3=90
 if angulo_1+angulo_2+angulo_3==180 and angulo_1 > 0 and angulo_2 > 0 and angulo_3 > 0:
     print("Es un triángulo válido")
 else:
