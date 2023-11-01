@@ -14,7 +14,7 @@ def Cuadrado():
 Cuadrado()
 print(num)
 
-#________Varibales no Locales:Se usa en funciones anidadadas
+#________Varibales no Locales:Se usa en funciones anidadadasuna funcion dentro deuna funcion padre
 def funcion_externa():
     nombre="Marta"
     def funcion_interna():
@@ -29,6 +29,30 @@ def funcion_externa():
         nonlocal nombre
         nombre="Jose"
         print(nombre)
-    funcion_externa()
+    funcion_interna()
     print(nombre)
 funcion_externa()
+#______________
+for i in range(100):
+    print(i)
+def M(numero):
+    if numero ==99:
+        print(numero)
+    else:
+        print(numero)
+        M(numero+1)
+M(4)
+#suma
+def sumar(n):
+    suma=0
+    for i in range(n+1):
+        suma+=i
+    return suma
+print(sumar(4))
+#MANERA RECURSICA
+def sum2(n):
+    if n==1:
+        return 1
+    else:
+        return n+sum2(n-1)
+print(sum2(4))
