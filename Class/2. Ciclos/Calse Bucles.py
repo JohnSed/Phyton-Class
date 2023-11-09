@@ -7,12 +7,13 @@ while True: #Ciclo Infinito, con expresion bulanea al ser booleana
     if nombre =="Eladio":
         continue
     print(nombre)
-print("Fin")
+    print("Fin")
 #Con este se vuelve infinito
 
-
-while True: #Ciclo Infinito, con expresion bulanea al ser booleana
-    nom= input("Ingrese Un Nombre")
-    if nom =="Eladio":
-        break
+    while True: #Ciclo Infinito, con expresion bulanea al ser booleana
+        nom= input("Ingrese Un Nombre")
+        if nom =="Eladio":
+            print("Ok")
+        else:
+            break
     print(nom)
