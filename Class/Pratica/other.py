@@ -1,4 +1,4 @@
-# Taller 4 PYTHON
+# Taller 6 PYTHON
 # AUTOR= JHON SEBASTIAN DIAZ
 # FECHA: 11/08/2023
 
@@ -6,7 +6,46 @@ from datetime import date
 hoy=date.today()        #fecha actual
 print("Hoy Es el dia: ",hoy)
 print()
-print("EJERICIO DE LA CALSE TRIANGULOS")
+print("TALLER 6 CICLOS ITERATIVOS CON LA SENTENCIA WHILE")
+print( )
+numl=int(input("Digite Un Numero: "))
+print("Ciclo Controlaro Por Contador")
+i=0
+while i <= numl:
+    print(i)
+    i+=1
+print("Final Del Ciclo")
+print()
+print("Ciclo Controlaro Por Evento")
+i=0
+Num1=5
+Num2= int(input("Digite Un Numero: "))
+while Num2 != Num1:
+    i+=1
+    Num2= int(input("Digite Un Numero: "))
+print("Acertaste En El Intento N°", i)
+print("Final Del Ciclo")
+print()
+print("Ciclo Abortado Con La Sentencia Break")
+amistad=input("Digite Nombre De Una Amistad: ")
+amistad=amistad.upper()
+for caracteristicas in amistad:
+    print (caracteristicas)
+    if caracteristicas== "A":
+        break
+    print("Fin Ciclo")
+
+
+
+
+
+
+
+
+
+
+
+
 a=int(input("Digite valor de a: "))
 b=int(input("Digite valor de b: "))
 c=int(input("Digite valor de c: "))

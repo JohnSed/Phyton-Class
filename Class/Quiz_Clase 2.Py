@@ -38,5 +38,4 @@ if nuevaverificaion == "si":
               print("Formulario Vacio Por Favor  Llenar")
 
 
-    Jho
-    print(Lista)
+    
